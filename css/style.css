@@ -1,0 +1,23 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url(../img/adventure-clouds-cold-1448645.jpg) no-repeat center
+    center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #24355c;
+}
+
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #24355c;
+  }
+}
